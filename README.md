@@ -11,4 +11,5 @@
 <img width="1798" height="889" alt="image" src="https://github.com/user-attachments/assets/44755db5-1f25-458a-afd8-67d387c0e063" />
 6.demo for navbar using html https://penaiahjoseph-droid.github.io/front-end-devlopment/navbar.html
 <img width="1571" height="472" alt="image" src="https://github.com/user-attachments/assets/88ea227c-669c-4ac0-9d57-2002321186a8" />
-
+7.demo for hover https://penaiahjoseph-droid.github.io/front-end-devlopment/hover.html
+<img width="496" height="495" alt="Screenshot 2026-03-18 110920" src="https://github.com/user-attachments/assets/24cd19f7-8cbd-4e32-8789-3eeddbcb7257" />
