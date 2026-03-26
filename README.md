@@ -15,4 +15,5 @@
 <img width="496" height="495" alt="Screenshot 2026-03-18 110920" src="https://github.com/user-attachments/assets/24cd19f7-8cbd-4e32-8789-3eeddbcb7257" />
 8.demo for validation form using javascript https://penaiahjoseph-droid.github.io/front-end-devlopment/validation%20form.html
 <img width="1278" height="278" alt="Screenshot 2026-03-26 113038" src="https://github.com/user-attachments/assets/8720a06b-92f5-4858-b47f-39cb1d808514" />
-
+9.demo for calculator https://penaiahjoseph-droid.github.io/front-end-devlopment/calc.html
+<img width="691" height="546" alt="Screenshot 2026-03-26 144732" src="https://github.com/user-attachments/assets/d9155f98-f0be-4343-960e-b14298bd511b" />
