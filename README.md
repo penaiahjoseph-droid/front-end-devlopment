@@ -17,3 +17,5 @@
 <img width="1278" height="278" alt="Screenshot 2026-03-26 113038" src="https://github.com/user-attachments/assets/8720a06b-92f5-4858-b47f-39cb1d808514" />
 9.demo for calculator https://penaiahjoseph-droid.github.io/front-end-devlopment/calc.html
 <img width="691" height="546" alt="Screenshot 2026-03-26 144732" src="https://github.com/user-attachments/assets/d9155f98-f0be-4343-960e-b14298bd511b" />
+10.demo for digital clock https://penaiahjoseph-droid.github.io/front-end-devlopment/dc.html
+<img width="740" height="428" alt="Screenshot 2026-04-04 110616" src="https://github.com/user-attachments/assets/7c2158b4-3fa1-4585-aecc-7a615cc0557a" />
