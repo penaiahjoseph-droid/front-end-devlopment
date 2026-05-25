@@ -21,4 +21,5 @@
 <img width="740" height="428" alt="Screenshot 2026-04-04 110616" src="https://github.com/user-attachments/assets/7c2158b4-3fa1-4585-aecc-7a615cc0557a" />
 11.demo for to-do list https://penaiahjoseph-droid.github.io/front-end-devlopment/to-do%20list.html
 <img width="612" height="646" alt="Screenshot 2026-04-06 110747" src="https://github.com/user-attachments/assets/c0f808da-847e-4a02-8ee5-61a2e9c29435" />
-
+12. demo for event handling https://penaiahjoseph-droid.github.io/front-end-devlopment/event%20handling.html
+<img width="997" height="457" alt="Screenshot 2026-05-24 214039" src="https://github.com/user-attachments/assets/8e27da02-bc82-451e-a9ec-1b46d081f343" />
