@@ -23,3 +23,5 @@
 <img width="612" height="646" alt="Screenshot 2026-04-06 110747" src="https://github.com/user-attachments/assets/c0f808da-847e-4a02-8ee5-61a2e9c29435" />
 12. demo for event handling https://penaiahjoseph-droid.github.io/front-end-devlopment/event%20handling.html
 <img width="997" height="457" alt="Screenshot 2026-05-24 214039" src="https://github.com/user-attachments/assets/8e27da02-bc82-451e-a9ec-1b46d081f343" />
+13. demo for responsive webpage https://penaiahjoseph-droid.github.io/front-end-devlopment/responsive%20webpage.html
+<img width="837" height="488" alt="Screenshot 2026-05-24 215247" src="https://github.com/user-attachments/assets/7c93d5cb-576a-4a48-b937-22d5b105d7c9" />
