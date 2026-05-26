@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+            background:#ffffff;
+        }
+
+        .slider{
+            width:800px;
+            height:450px;
+            position:relative;
+            overflow:hidden;
+            border-radius:15px;
+            box-shadow:0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .slides{
+            display:flex;
+            width:100%;
+            height:100%;
+            transition:transform 0.5s ease-in-out;
+        }
+
+        .slides img{
+            width:800px;
+            height:450px;
+            object-fit:cover;
+        }
+
+        .btn{
+            position:absolute;
+            top:50%;
+            transform:translateY(-50%);
+            background:rgba(0,0,0,0.5);
+            color:white;
+            border:none;
+            padding:12px 16px;
+            cursor:pointer;
+            font-size:22px;
+            border-radius:50%;
+            transition:0.3s;
+        }
+
+        .btn:hover{
+            background:black;
+        }
+
+        .prev{
+            left:15px;
+        }
+
+        .next{
+            right:15px;
+        }
+
+        .dots{
+            position:absolute;
+            bottom:15px;
+            width:100%;
+            text-align:center;
+        }
+
+        .dot{
+            height:12px;
+            width:12px;
+            margin:0 5px;
+            background:white;
+            border-radius:50%;
+            display:inline-block;
+            cursor:pointer;
+            opacity:0.5;
+        }
+
+        .active{
+            opacity:1;
+            background:#ff9900;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="slider">
+
+        <div class="slides" id="slides">
+            <img src="https://picsum.photos/id/1015/800/450" alt="Image 1">
+            <img src="https://picsum.photos/id/1016/800/450" alt="Image 2">
+            <img src="https://picsum.photos/id/1018/800/450" alt="Image 3">
+        </div>
+
+        <button class="btn prev" onclick="prevSlide()">❮</button>
+        <button class="btn next" onclick="nextSlide()">❯</button>
+
+        <div class="dots">
+            <span class="dot active" onclick="currentSlide(0)"></span>
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+        </div>
+
+    </div>
+
+    <script>
+        let index = 0;
+
+        const slides = document.getElementById("slides");
+        const dots = document.querySelectorAll(".dot");
+        const totalSlides = dots.length;
+
+        function showSlide(i){
+
+            if(i >= totalSlides){
+                index = 0;
+            }
+            else if(i < 0){
+                index = totalSlides - 1;
+            }
+            else{
+                index = i;
+            }
+
+            slides.style.transform = `translateX(${-index * 800}px)`;
+
+            dots.forEach(dot => {
+                dot.classList.remove("active");
+            });
+
+            dots[index].classList.add("active");
+        }
+
+        function nextSlide(){
+            showSlide(index + 1);
+        }
+
+        function prevSlide(){
+            showSlide(index - 1);
+        }
+
+        function currentSlide(i){
+            showSlide(i);
+        }
+
+        // Auto Slide
+        setInterval(() => {
+            nextSlide();
+        }, 3000);
+
+    </script>
+
+</body>
+</html>
