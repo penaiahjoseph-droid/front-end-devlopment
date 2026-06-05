@@ -27,5 +27,7 @@
 <img width="837" height="488" alt="Screenshot 2026-05-24 215247" src="https://github.com/user-attachments/assets/7c93d5cb-576a-4a48-b937-22d5b105d7c9" />
 14. demo for image slider https://penaiahjoseph-droid.github.io/front-end-devlopment/image%20slider.html
 <img width="1214" height="786" alt="Screenshot 2026-05-26 093554" src="https://github.com/user-attachments/assets/8e1210d3-bcc5-467b-9c1f-214bbe1235ce" />
+15. demo for font awsome https://penaiahjoseph-droid.github.io/front-end-devlopment/font%20awsome.html
+<img width="803" height="350" alt="Screenshot 2026-06-05 150033" src="https://github.com/user-attachments/assets/39a87f95-eec7-49af-a870-87b82b77046c" />
 
 
