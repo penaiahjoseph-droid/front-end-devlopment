@@ -29,5 +29,5 @@
 <img width="1214" height="786" alt="Screenshot 2026-05-26 093554" src="https://github.com/user-attachments/assets/8e1210d3-bcc5-467b-9c1f-214bbe1235ce" />
 15. demo for font awsome https://penaiahjoseph-droid.github.io/front-end-devlopment/font%20awsome.html
 <img width="803" height="350" alt="Screenshot 2026-06-05 150033" src="https://github.com/user-attachments/assets/39a87f95-eec7-49af-a870-87b82b77046c" />
-
-
+16. demo for react single layout https://penaiahjoseph-droid.github.io/front-end-devlopment/react%20single%20layout.html
+<img width="1919" height="861" alt="Screenshot 2026-06-05 151810" src="https://github.com/user-attachments/assets/8fb4836b-9f21-4ea9-828b-eb30a0013b27" />
