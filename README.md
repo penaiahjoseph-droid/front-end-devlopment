@@ -35,3 +35,5 @@
 <img width="791" height="460" alt="Screenshot 2026-05-24 215238" src="https://github.com/user-attachments/assets/809578fa-fa71-447d-991d-509aefa2b77b" />
 18. demo for bootstrap https://penaiahjoseph-droid.github.io/front-end-devlopment/bootstrap.html
 <img width="1918" height="859" alt="Screenshot 2026-06-06 143620" src="https://github.com/user-attachments/assets/78dd02aa-1546-41f6-951d-7af66f91f360" />
+19. demo for react state counter https://penaiahjoseph-droid.github.io/front-end-devlopment/React%20State%20Management%20(Counter0.html
+<img width="1051" height="490" alt="Screenshot 2026-06-05 153336" src="https://github.com/user-attachments/assets/e4fe8723-5b16-46ce-8408-5ad354a7fc8e" />
