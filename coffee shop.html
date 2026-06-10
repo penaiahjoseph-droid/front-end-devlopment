@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Coffee Shop</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background:#f4f4f4;
+            margin:0;
+            padding:0;
+        }
+
+        header{
+            background:brown;
+            color:white;
+            text-align:center;
+            padding:15px;
+        }
+
+        .container{
+            width:80%;
+            margin:auto;
+            margin-top:20px;
+        }
+
+        .menu{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+            gap:20px;
+        }
+
+        .item{
+            background:white;
+            padding:15px;
+            border-radius:10px;
+            text-align:center;
+            box-shadow:0 0 10px gray;
+        }
+
+        .item img{
+            width:150px;
+            height:120px;
+            object-fit:cover;
+        }
+
+        input{
+            width:60px;
+            padding:5px;
+        }
+
+        button{
+            background:brown;
+            color:white;
+            border:none;
+            padding:10px 20px;
+            cursor:pointer;
+            border-radius:5px;
+        }
+
+        #bill{
+            margin-top:20px;
+            background:white;
+            padding:20px;
+            border-radius:10px;
+            box-shadow:0 0 10px gray;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>☕ Online Coffee Shop</h1>
+</header>
+
+<div class="container">
+
+    <h2>Menu</h2>
+
+    <div class="menu">
+
+        <div class="item">
+            <h3>Hot Coffee</h3>
+            <p>₹80</p>
+            Qty:
+            <input type="number" id="coffee" min="0" value="0">
+        </div>
+
+        <div class="item">
+            <h3>Tea</h3>
+            <p>₹40</p>
+            Qty:
+            <input type="number" id="tea" min="0" value="0">
+        </div>
+
+        <div class="item">
+            <h3>Sandwich</h3>
+            <p>₹120</p>
+            Qty:
+            <input type="number" id="sandwich" min="0" value="0">
+        </div>
+
+        <div class="item">
+            <h3>Burger</h3>
+            <p>₹150</p>
+            Qty:
+            <input type="number" id="burger" min="0" value="0">
+        </div>
+
+        <div class="item">
+            <h3>French Fries</h3>
+            <p>₹90</p>
+            Qty:
+            <input type="number" id="fries" min="0" value="0">
+        </div>
+
+        <div class="item">
+            <h3>Ice Cream</h3>
+            <p>₹70</p>
+            Qty:
+            <input type="number" id="icecream" min="0" value="0">
+        </div>
+
+    </div>
+
+    <br>
+
+    <button onclick="generateBill()">Place Order</button>
+
+    <div id="bill"></div>
+
+</div>
+
+<script>
+
+function generateBill(){
+
+    let coffee = Number(document.getElementById("coffee").value);
+    let tea = Number(document.getElementById("tea").value);
+    let sandwich = Number(document.getElementById("sandwich").value);
+    let burger = Number(document.getElementById("burger").value);
+    let fries = Number(document.getElementById("fries").value);
+    let icecream = Number(document.getElementById("icecream").value);
+
+    let total =
+        coffee*80 +
+        tea*40 +
+        sandwich*120 +
+        burger*150 +
+        fries*90 +
+        icecream*70;
+
+    document.getElementById("bill").innerHTML =
+        "<h2>Order Summary</h2>" +
+        "<p>Hot Coffee: " + coffee + "</p>" +
+        "<p>Tea: " + tea + "</p>" +
+        "<p>Sandwich: " + sandwich + "</p>" +
+        "<p>Burger: " + burger + "</p>" +
+        "<p>French Fries: " + fries + "</p>" +
+        "<p>Ice Cream: " + icecream + "</p>" +
+        "<hr>" +
+        "<h2>Total Amount: ₹" + total + "</h2>";
+}
+
+</script>
+
+</body>
+</html>
