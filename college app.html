@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kamaraj College Admission Portal</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+header{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+nav{
+    background:#00509e;
+    padding:10px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+section{
+    padding:30px;
+}
+
+.course-table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+.course-table th,
+.course-table td{
+    border:1px solid #ddd;
+    padding:12px;
+    text-align:center;
+}
+
+.course-table th{
+    background:#003366;
+    color:white;
+}
+
+.form-container{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    max-width:600px;
+    margin:auto;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+input, select{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    background:#003366;
+    color:white;
+    border:none;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#00509e;
+}
+
+footer{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Kamaraj College</h1>
+    <p>Online Admission Portal</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#courses">Courses</a>
+    <a href="#admission">Admission</a>
+</nav>
+
+<section id="about">
+    <h2>About Kamaraj College</h2>
+    <p>
+        Welcome to Kamaraj College. We provide quality education
+        in Arts, Science, and Commerce disciplines with experienced
+        faculty and modern facilities.
+    </p>
+</section>
+
+<section id="courses">
+    <h2>Available Courses & Fees</h2>
+
+    <table class="course-table">
+        <tr>
+            <th>Course</th>
+            <th>Duration</th>
+            <th>Annual Fee (₹)</th>
+        </tr>
+
+        <tr>
+            <td>B.Sc Computer Science</td>
+            <td>3 Years</td>
+            <td>35,000</td>
+        </tr>
+
+        <tr>
+            <td>BCA</td>
+            <td>3 Years</td>
+            <td>40,000</td>
+        </tr>
+
+        <tr>
+            <td>B.Com</td>
+            <td>3 Years</td>
+            <td>25,000</td>
+        </tr>
+
+        <tr>
+            <td>BBA</td>
+            <td>3 Years</td>
+            <td>30,000</td>
+        </tr>
+
+        <tr>
+            <td>M.Sc Computer Science</td>
+            <td>2 Years</td>
+            <td>45,000</td>
+        </tr>
+
+        <tr>
+            <td>M.Com</td>
+            <td>2 Years</td>
+            <td>35,000</td>
+        </tr>
+    </table>
+</section>
+
+<section id="admission">
+    <h2>Admission Form</h2>
+
+    <div class="form-container">
+
+        <form id="admissionForm">
+
+            <input type="text" id="name"
+                placeholder="Student Name" required>
+
+            <input type="email" id="email"
+                placeholder="Email Address" required>
+
+            <input type="tel" id="phone"
+                placeholder="Phone Number" required>
+
+            <select id="course" required>
+                <option value="">Select Course</option>
+                <option>B.Sc Computer Science</option>
+                <option>BCA</option>
+                <option>B.Com</option>
+                <option>BBA</option>
+                <option>M.Sc Computer Science</option>
+                <option>M.Com</option>
+            </select>
+
+            <button type="submit">
+                Apply Now
+            </button>
+
+        </form>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Kamaraj College Admission Portal</p>
+</footer>
+
+<script>
+document.getElementById("admissionForm")
+.addEventListener("submit", function(event){
+
+    event.preventDefault();
+
+    let name =
+    document.getElementById("name").value;
+
+    let course =
+    document.getElementById("course").value;
+
+    alert(
+        "Admission Application Submitted!\n\n" +
+        "Student: " + name +
+        "\nCourse: " + course
+    );
+
+    this.reset();
+});
+</script>
+
+</body>
+</html>
